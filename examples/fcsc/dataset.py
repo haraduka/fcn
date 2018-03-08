@@ -32,7 +32,7 @@ class FCSCDataset(chainer.dataset.DatasetMixin):
     def __init__(self, split):
         assert split in ('train', 'val')
 
-        dataset_dir = '/home/leus/haraduka/20180307_imagedataset/raw/dataset'
+        dataset_dir = '/home/leus/haraduka/20180307_imagedataset/raw/dataset' # you should change it
 
         sub_dirs = []
         for sub_dir in os.listdir(dataset_dir):
